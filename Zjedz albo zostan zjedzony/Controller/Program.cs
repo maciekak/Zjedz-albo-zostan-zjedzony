@@ -11,7 +11,8 @@ namespace Zjedz_albo_zostan_zjedzony.Controller
             Inicjalizowanie.Pobierz();
             var plansza = new Plansza(Inicjalizowanie.Dane.X, Inicjalizowanie.Dane.Y);
             Rysowanie.Rysuj(plansza);
-            
+
+            Console.Write();
             Console.ReadKey();
         }
         
